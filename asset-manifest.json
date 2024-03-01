@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/amrakhussein.github.io/street-suite/static/css/main.359eda21.css",
-    "main.js": "/amrakhussein.github.io/street-suite/static/js/main.6dc5b689.js",
-    "static/js/453.109971fc.chunk.js": "/amrakhussein.github.io/street-suite/static/js/453.109971fc.chunk.js",
-    "index.html": "/amrakhussein.github.io/street-suite/index.html",
-    "main.359eda21.css.map": "/amrakhussein.github.io/street-suite/static/css/main.359eda21.css.map",
-    "main.6dc5b689.js.map": "/amrakhussein.github.io/street-suite/static/js/main.6dc5b689.js.map",
-    "453.109971fc.chunk.js.map": "/amrakhussein.github.io/street-suite/static/js/453.109971fc.chunk.js.map"
+    "main.css": "/street-suite/static/css/main.359eda21.css",
+    "main.js": "/street-suite/static/js/main.49842e33.js",
+    "static/js/453.109971fc.chunk.js": "/street-suite/static/js/453.109971fc.chunk.js",
+    "index.html": "/street-suite/index.html",
+    "main.359eda21.css.map": "/street-suite/static/css/main.359eda21.css.map",
+    "main.49842e33.js.map": "/street-suite/static/js/main.49842e33.js.map",
+    "453.109971fc.chunk.js.map": "/street-suite/static/js/453.109971fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.359eda21.css",
-    "static/js/main.6dc5b689.js"
+    "static/js/main.49842e33.js"
   ]
 }
