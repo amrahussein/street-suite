@@ -29,7 +29,7 @@ export default function SideNav() {
       />
 
       {/* Navigation */}
-      <div className='z-10 -mt-[14rem] space-y-5 self-center xl:-mt-[28rem]'>
+      <div className='z-10 -mt-[10rem] space-y-5 self-center xl:-mt-[28rem]'>
         {items.map((item, index) => (
           <SideNavItem
             key={index}
