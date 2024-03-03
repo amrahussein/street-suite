@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  /*  scrollbar styles */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-md bg-gray-600;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-300;
+  }
+}
