@@ -25,7 +25,7 @@ function App() {
         {/* non desktop screens */}
         {!isDesktopScreen && (viewFilters ? <Filters /> : <Alerts />)}
         {!isDesktopScreen && (
-          <div className='flex justify-center space-x-4 p-4'>
+          <div className='fixed bottom-0 flex w-full justify-center space-x-4 bg-slate-500 p-2'>
             <button
               className={`rounded-lg px-4 py-2 ${
                 viewFilters

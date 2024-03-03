@@ -12,7 +12,7 @@ export default function Alerts() {
 
   return (
     <>
-      <div className='h-full w-full space-y-8 overflow-auto pl-[4.3rem] xl:ml-4 xl:w-[58%]'>
+      <div className='h-full w-full shrink-0 space-y-8 overflow-auto pb-[4rem] pl-[4.3rem] xl:ml-4 xl:w-[58%] xl:pb-0'>
         {/* topbar alerts section */}
         <div className='flex flex-row items-center justify-between space-x-4 bg-gray-800 py-2 pr-2 lg:px-4'>
           {/* Heading */}

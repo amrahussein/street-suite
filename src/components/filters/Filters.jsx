@@ -37,9 +37,9 @@ export default function Filters() {
   };
 
   return (
-    <div className='h-full overflow-auto bg-gray-800 pl-[4.3rem] xl:ml-4'>
+    <div className='h-full w-full overflow-auto bg-gray-800 pb-[4rem] pl-[4.3rem] xl:ml-4 xl:pb-0'>
       {' '}
-      <div className='my-8 space-y-12 rounded-lg bg-slate-900 px-5 py-8'>
+      <div className='my-4 space-y-10 rounded-lg bg-slate-900 px-5 py-8'>
         <IndustryFiltersApplied
           selectedIndustryFilters={selectedFilters.industry}
           handleIndustryFilterRemoval={handleIndustryFilterToggle}

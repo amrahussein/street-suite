@@ -13,7 +13,7 @@ export default function SideNav() {
     <div
       onMouseEnter={() => setIsCollapsed(false)}
       onMouseLeave={() => setIsCollapsed(true)}
-      className={`fixed left-0 flex h-full flex-col justify-between bg-gray-700 py-[1.75rem] md:ml-2 ${
+      className={`fixed left-0 flex h-full flex-col justify-between bg-gray-700 py-[1.75rem] pb-[4rem] md:ml-2 xl:pb-4 ${
         isCollapsed ? 'w-16 md:w-20' : 'w-52 rounded-lg pl-2 shadow-2xl'
       }`}
     >
@@ -29,7 +29,7 @@ export default function SideNav() {
       />
 
       {/* Navigation */}
-      <div className='z-10 -mt-[14rem] space-y-5 self-center'>
+      <div className='z-10 -mt-[14rem] space-y-5 self-center xl:-mt-[28rem]'>
         {items.map((item, index) => (
           <SideNavItem
             key={index}
