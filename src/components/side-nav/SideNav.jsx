@@ -13,15 +13,15 @@ export default function SideNav() {
     <div
       onMouseEnter={() => setIsCollapsed(false)}
       onMouseLeave={() => setIsCollapsed(true)}
-      className={`fixed ml-2 flex h-full flex-col justify-between bg-gray-700 py-[1.75rem] ${
-        isCollapsed ? 'w-20' : 'w-52 rounded-lg pl-2 shadow-2xl'
+      className={`fixed left-0 flex h-full flex-col justify-between bg-gray-700 py-[1.75rem] md:ml-2 ${
+        isCollapsed ? 'w-16 md:w-20' : 'w-52 rounded-lg pl-2 shadow-2xl'
       }`}
     >
       {/* Logo */}
       <img
         className={`cursor-pointer ${
           isCollapsed
-            ? '-mt-[1.563rem] scale-[250%]'
+            ? '-mt-[1.563rem] scale-[290%] md:scale-[250%]'
             : '-mt-[5rem] scale-[200%]'
         }`}
         alt='street suite logo'
@@ -29,7 +29,7 @@ export default function SideNav() {
       />
 
       {/* Navigation */}
-      <div className='z-10 -mt-96 space-y-5 self-center'>
+      <div className='z-10 -mt-[14rem] space-y-5 self-center'>
         {items.map((item, index) => (
           <SideNavItem
             key={index}

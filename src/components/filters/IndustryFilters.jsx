@@ -3,7 +3,7 @@ import Icon from '../UI/Icon';
 
 export default function IndustryFilters({ handleFilterToggle }) {
   return (
-    <div className='mb-4 pl-24'>
+    <div className='mb-4 xl:pl-24'>
       <h2 className='mb-4 text-lg font-semibold'>Industry Filter:</h2>
       <div className='grid grid-cols-2 gap-4 overflow-hidden pr-4'>
         {data.industry.map((industry, index) => (

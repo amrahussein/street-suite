@@ -5,16 +5,16 @@ export default function IndustryFiltersApplied({
   return (
     <div className='mb-4'>
       <h2 className='mb-4 text-lg font-semibold'>Filters Applied</h2>
-      <div className='h-28 rounded-lg bg-gray-500 p-4'>
+      <div className='min-h-28 rounded-lg bg-gray-500 p-4'>
         <div className='flex flex-wrap '>
-          {selectedIndustryFilters.map((filter, index) => (
+          {selectedIndustryFilters.map((item, index) => (
             <div
               key={index}
               className='mb-2 mr-2 rounded-md bg-blue-200 px-2 py-1 text-blue-800'
             >
-              {filter}
+              {item}
               <span
-                onClick={() => handleIndustryFilterRemoval(index)}
+                onClick={() => handleIndustryFilterRemoval(item)}
                 className='text-gray-900-500 ml-1 cursor-pointer font-semibold focus:outline-none'
               >
                 x
